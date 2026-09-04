@@ -32,7 +32,7 @@ body {
 
 	text-align: center;
 
-	padding: 6rem 4rem 4rem 4rem;
+	/*padding: 6rem 4rem 4rem 4rem;*/
  }
 
 .section {
@@ -41,6 +41,15 @@ body {
 	justify-content: center;
 
 	text-align: center;
+
+	padding: 6rem 4rem 0 4rem;
+}
+
+iframe {
+	width: calc(100vw - 8rem);
+	height: 50vw;
+
+	border: 0;
 }
 
 /* TYPE */
@@ -71,6 +80,10 @@ h3 {
 	margin: 0;
 }
 
+a {
+	color: rgb(0, 100, 255);
+}
+
 p {
 	font-size: 1rem;
 }
@@ -97,11 +110,11 @@ span.smaller {
 	top: -0.5em;
 }
 
-span.smallest {
+span.numberlist {
 	font-size: 0.25em;
 	line-height: 0.25rem;
 
-	margin-right: 1rem;
+	margin-right: 1.5rem;
 
 	position: relative;
 	top: -0.75em;
