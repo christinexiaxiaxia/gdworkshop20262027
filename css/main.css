@@ -46,8 +46,9 @@ body {
 }
 
 iframe {
-	width: calc(100vw - 8rem);
-	height: 50vw;
+	width: calc(100vw);
+	height: 60vw;
+	margin: 0 -4rem 0 -4rem;
 
 	border: 0;
 }
@@ -86,6 +87,9 @@ a {
 
 p {
 	font-size: 1rem;
+	line-height: 1.25rem;
+
+	margin: 0;
 }
 
 span {
