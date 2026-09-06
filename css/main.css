@@ -8,6 +8,17 @@
   src: url("../fonts/TINY5x3-120.woff");
 }
 
+@keyframes colourpop {
+	17% {
+		color: rgb(0, 0, 0);
+	}
+	19% {
+		color: rgb(255, 100, 255);
+	}
+	20% {
+	}
+}
+
 @keyframes spin {
 /*	0% {
 		transform: rotate(0deg);
@@ -359,6 +370,11 @@ h3.navigation {
 
 #values {
 	background-color: ;
+}
+
+#us {
+	animation: colourpop;
+	animation-timeline: view();
 }
 
 ::selection {
