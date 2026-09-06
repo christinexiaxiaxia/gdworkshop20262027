@@ -9,7 +9,7 @@
 }
 
 @keyframes spin {
-	0% {
+/*	0% {
 		transform: rotate(0deg);
 		margin-top: -0.25rem;
 		margin-left: 0rem;
@@ -46,7 +46,37 @@
 		transform: rotate(720deg);
 		margin-top: -0.25rem;
 		margin-left: 0rem;
-	}	
+	}	*/
+
+	0% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+	12.5% {
+		transform-origin: 36% 52%;
+	}
+	25% {
+		transform-origin: 50% 50%;
+	}
+	37.5% {
+		transform-origin: 48% 72%;
+	}
+	50% {
+		transform-origin: 50% 50%;
+	}
+	62.5% {
+		transform-origin: 36% 52%;
+	}
+	75% {
+		transform-origin: 50% 50%;
+	}
+	87.5% {
+		transform-origin: 48% 72%;
+	}
+	100% {
+		transform: rotate(720deg);
+		transform-origin: 50% 50%;
+	}
 
 /*	0% {
 		transform: rotate(0deg);
@@ -80,7 +110,7 @@ body {
 
 div.navigation {
 	position: fixed;
-	top: 0;
+	top: -0.25rem;
 	/*height: 3.75rem;*/
 
 	display: flex;
