@@ -341,7 +341,14 @@ span.caption {
 	line-height: 1.1rem;
 
 	position: relative;
-	top: -0.5em;
+}
+
+h2 > span.caption {
+	top: -0.85em;
+}
+
+h3 > span.caption {
+	top: -0.4em;
 }
 
 span.serif {
