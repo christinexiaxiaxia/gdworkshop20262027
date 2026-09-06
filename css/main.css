@@ -131,7 +131,7 @@ h3.navigation {
 	margin-bottom: -0.5rem;
 }
 
-img.icon {
+/*img.icon {
 	position: fixed;
 	top: 1rem;
 	right: 1rem;
@@ -143,7 +143,7 @@ img.icon {
 	animation: spin;
 	animation-timeline: scroll();
 	animation-timing-function: linear;
-}
+}*/
 
 /*div.header {
 	position: fixed;
@@ -168,9 +168,8 @@ img.icon {
 	flex-direction: column;
 	justify-content: center;
 
-	padding: 8rem 0 0 0;
-
-	margin: -8rem auto 0 auto;
+	padding: 10rem 0 0 0;
+	margin: -10rem auto 0 auto;
 }
 
 #nextclass {
@@ -423,6 +422,11 @@ span.star {
 	gap: 8rem;
 
 	padding: 8rem 2rem 4rem 2rem;
+}
+
+.section {
+	padding: 6rem 0 0 0;
+	margin: -6rem auto 0 auto;
 }
 
 h1 {
