@@ -46,7 +46,18 @@
 		transform: rotate(720deg);
 		margin-top: -0.25rem;
 		margin-left: 0rem;
+	}	
+
+/*	0% {
+		transform: rotate(0deg);
+		margin-top: 2rem;
+		margin-left: 0rem;
 	}
+	100% {
+		transform: rotate(720deg);
+		margin-top: 2rem;
+		margin-left: 0rem;
+	}*/
 }
 
 
