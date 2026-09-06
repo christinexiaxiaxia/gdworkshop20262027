@@ -272,6 +272,7 @@ h3 {
 	font-size: 2rem;
 	line-height: 2rem;
 	font-family: Tiny100;
+	font-weight: normal;
 
 	text-align: center;
 
@@ -368,13 +369,13 @@ span.smaller {
 
 span.numberlist {
 	font-family: Tiny100;
-	font-size: 0.5em;
-	line-height: 0.25rem;
+	font-size: 2rem;
+	line-height: 2rem;
 
 	margin-right: 1.5rem;
 
 	position: relative;
-	top: -0.45em;
+	top: -0.75em;
 }
 
 span.star {
