@@ -15,7 +15,7 @@
 		margin-left: 0rem;
 	}
 	12.5% {
-		margin-top: 1.5rem;
+		margin-top: 1.75rem;
 		margin-left: -1.5rem;
 	}
 	25% {
@@ -31,7 +31,7 @@
 		margin-left: 0rem;
 	}
 	62.5% {
-		margin-top: 1.5rem;
+		margin-top: 1.75rem;
 		margin-left: -1.5rem;
 	}
 	75% {
@@ -67,18 +67,7 @@ body {
 
 /* STRUCTURE */
 
-/*.header {
-	position: fixed;
-	width: 100vw;
-
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-
-	z-index: -1000;
-}*/
-
-.navigation {
+div.navigation {
 	position: fixed;
 	top: 0;
 	/*height: 3.75rem;*/
@@ -95,6 +84,10 @@ body {
 	animation-timing-function: linear;
 
 	z-index: 1000;
+}
+
+h3.navigation {
+	margin-bottom: -0.5rem;
 }
 
 img.icon {
@@ -127,8 +120,6 @@ img.icon {
 	gap: 12rem;
 
 	padding: 12rem 4rem 4rem 4rem;
-	/*padding: 16rem 4rem 6rem 4rem;*/
-	/*padding: 10vw 4rem 6rem 4rem;*/
  }
 
 .section {
@@ -193,6 +184,10 @@ a.external {
 
 body {
 	background-color: #cccccc;
+}
+
+h3.navigation {
+	color: rgb(255, 100, 255);
 }
 
 #nextclass {
@@ -293,15 +288,20 @@ p.tiny {
 ul {
 	list-style-position: inside;
 
-	text-align: center;
-
 	margin: 0;
+}
+
+.navigation > ul {
+	list-style-type: "";
 	margin-inline-start: 0;
 	padding-inline-start: 0;
 }
 
 #nextclass > ul {
+	text-align: center;
 	list-style-type: "☐ ";
+	margin-inline-start: 0;
+	padding-inline-start: 0;
 }
 
 #nextclass > ul > li {
@@ -343,10 +343,10 @@ span.sansserif {
 	/*font-size: 1em;*/
 }
 
-/*span.smaller {
+span.smaller {
 	font-size: 0.5em;
 	line-height: 0.5rem;
-}*/
+}
 
 span.numberlist {
 	font-family: Tiny100;
