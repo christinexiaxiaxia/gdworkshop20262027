@@ -8,6 +8,9 @@
   src: url("../fonts/TINY5x3-120.woff");
 }
 
+html {
+	scroll-behavior: smooth;
+}
 
 * {
 	font-size: 11px;
@@ -22,6 +25,7 @@ body {
 .navigation {
 	position: fixed;
 	/*width: 100%;*/
+	top: 0;
 
 	display: flex;
 	flex-direction: column;
@@ -32,17 +36,29 @@ body {
 	text-align: left;
 
 	/*mix-blend-mode: exclusion;*/
+	z-index: 1000;
+}
+
+div.header {
+	/*position: fixed;*/
+	width: calc(100vw + 16rem);
+
+	margin: -1.4vw -8rem 0 -8rem;
+
+	/*background-color: red;*/
+	color: yellow;
+	z-index: -1000;
 }
 
 .container {
 	display: flex;
 	flex-direction: column;
-	/*gap: 6rem;*/
+	gap: 16rem;
 
 	text-align: center;
 
-	/*padding: 2rem 0 10rem 0;*/
-	/*padding-bottom: 10rem;*/
+	padding: 16rem 4rem 6rem 4rem;
+	/*padding: 10vw 4rem 6rem 4rem;*/
  }
 
 .section {
@@ -52,9 +68,9 @@ body {
 
 	text-align: center;
 
-	padding: 8rem 4rem 8rem 4rem;
+	padding: 8rem 0 0 0;
 
-	margin: auto;
+	margin: -8rem auto 0 auto;
 }
 
 #nextclass {
@@ -140,6 +156,17 @@ a:hover {
 
 /* TYPE */
 
+p.header {
+	font-family: Tiny100;
+	font-size: 25vw;
+	line-height: 12.5vw;
+
+	position: relative;
+	top: 3.8vw;
+
+	text-align: center;
+}
+
 h1 {
 	font-size: 6rem;
 	line-height: 5.25rem;
@@ -170,16 +197,15 @@ h3 {
 	margin: 0;
 }
 
-p {
-	font-size: 1rem;
-	line-height: 1.25rem;
-
-	margin: 0;
+h3.margin-1 {
+	margin: 0 0 -1rem 0;
 }
 
-p.paragraph {
+p {
 	font-size: 1.5rem;
 	line-height: 1.5rem;
+
+	margin: 0;
 }
 
 p.tiny {
@@ -214,23 +240,33 @@ span {
 	font-weight: normal;
 }
 
-span.serif {
-	font-family: serif;
-	font-size: 1em;
+p.caption {
+	font-size: 1rem;
+	line-height: 1.1rem;
 }
 
-span.sansserif {
-	font-family: sans-serif;
-	font-size: 1em;
-}
-
-span.smaller {
-	font-size: 0.5em;
-	line-height: 0.5rem;
+span.caption {
+	font-size: 1rem;
+	line-height: 1.1rem;
 
 	position: relative;
 	top: -0.5em;
 }
+
+span.serif {
+	font-family: serif;
+	/*font-size: 1em;*/
+}
+
+span.sansserif {
+	font-family: sans-serif;
+	/*font-size: 1em;*/
+}
+
+/*span.smaller {
+	font-size: 0.5em;
+	line-height: 0.5rem;
+}*/
 
 span.numberlist {
 	font-family: Tiny100;
@@ -253,6 +289,12 @@ span.star {
 
 
 @media only screen and (max-width: 680px) {
+
+.container {
+	gap: 12rem;
+
+	padding: 12rem 2rem 4rem 2rem;
+}
 
 h1 {
 	font-size: 5rem;
