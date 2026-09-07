@@ -254,6 +254,10 @@ h3.navigation {
 	gap: 1.5rem;
 }
 
+#officehours {
+	gap: 1.5rem;
+}
+
 #values {
 	gap: 0;
 }
@@ -387,6 +391,10 @@ h3 {
 
 h3.margin-1 {
 	margin: 0 0 -1rem 0;
+}
+
+h3.margin05 {
+	margin: 0 0 0.5rem 0;
 }
 
 p {
