@@ -203,6 +203,17 @@ img.multiply {
 	mix-blend-mode: multiply;
 }
 
+button {
+	width: fit-content;
+	margin: auto;
+	padding: 0.75rem 3rem;
+	border-radius: 100% 100% 100% 100%;
+}
+
+button > a {
+	text-decoration: none;
+}
+
 
 /* CURSOR */
 
@@ -212,6 +223,14 @@ a.external {
 
 #nextclass > ul > li:hover {
 	cursor: help;
+}
+
+button.button-closed {
+	cursor: zoom-in;
+}
+
+button.button-open {
+	cursor: zoom-out;
 }
 
 
@@ -424,6 +443,17 @@ span.dash {
 	top: -0.1em;
 }
 
+button {
+	/*font-family: Tiny100;*/
+	font-family: serif;
+	font-size: 1rem;
+}
+
+a {
+	text-decoration: underline 1px solid;
+	text-underline-offset: 2px;
+}
+
 
 /* jQuery animation classes */
 
@@ -461,6 +491,51 @@ span.dash {
 
 .box-filled {
 	list-style: "☒ " inside;
+}
+
+.button-hover {} /* only adding this for js */
+
+button {
+	background-color: rgba(0,0,0,0);
+	border: 1px solid rgb(255, 100, 255);
+	color: rgb(255, 100, 255);
+}
+
+button:hover {
+	border: 1px solid rgb(255, 0, 0);
+	color: rgb(255, 0, 0);
+}
+
+button:hover > a {
+	color: rgb(255, 0, 0);
+}
+
+.closed {
+	display: none;
+}
+
+.open {
+	display: auto;
+}
+
+.button-closed {
+	border: 1px solid rgb(255, 100, 255);
+	color: rgb(255, 100, 255);
+}
+
+.button-closed:hover {
+	border: 1px solid rgb(255, 0, 0);
+	color: rgb(255, 0, 0);
+}
+
+.button-open {
+	border: 1px solid rgb(255, 0, 0);
+	color: rgb(255, 0, 0);
+}
+
+.button-open:hover {
+	border: 1px solid rgb(255, 100, 255);
+	color: rgb(255, 100, 255);
 }
 
 

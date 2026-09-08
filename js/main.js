@@ -1,3 +1,10 @@
+// ON LOAD
+
+$(document).ready(function(){
+	$('.collapse').next().addClass('closed');
+})
+
+
 // REMOVE TRANSITION ON WINDOW RESIZE
 
 $(window).resize(function(){
@@ -40,3 +47,24 @@ $('.hovercolour').hover(function(){
 	$(this).removeClass('colourpink growtype');
 	$(this).parent().css({'width':'calc(100%)','margin-left':'0px'});
 })
+
+
+// COLLAPSING BUTTON
+
+$('.collapse').on('click', function(){
+	if (!$(this).next().hasClass('open')) {
+		$(this).next().removeClass('closed')
+		$(this).next().addClass('open')
+		$(this).addClass('button-open')
+		$(this).removeClass('button-closed')
+	} else {
+		$(this).next().removeClass('open')
+		$(this).next().addClass('closed')
+		$(this).removeClass('button-open')
+		$(this).addClass('button-closed')
+	}
+})
+
+
+
+
