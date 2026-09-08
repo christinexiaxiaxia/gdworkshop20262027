@@ -437,7 +437,7 @@ span.dash {
 	transition-duration: 0.2s;
 
 	padding: 0.25rem;
-	margin: -0.25rem;
+	margin: calc(-0.25rem - 0.008em);
 }
 
 .growtype {
