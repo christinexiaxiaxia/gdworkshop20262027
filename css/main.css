@@ -447,8 +447,8 @@ span.dash {
 }
 
 .wider {
-	width: 101.5%;
-	margin-left: -0.75%;
+	/*width: calc(100% + 0.5rem);*/
+	/*margin-left: -0.25rem;*/
 }
 
 .colourpink {

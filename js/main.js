@@ -16,7 +16,7 @@ $('#nextclass').find('li').hover(function(){
 
 const values = [
 	'Follow your curiosities.',
-	'Everything is an experiment. When you mess up, just try again.',
+	'Everything is an experiment. When you mess up, take note and try again.',
 	'Be patient. Trust the process!',
 	'Be open to coincidences.',
 	'Make friends. Collaboration makes the work meaningful.',
@@ -33,6 +33,10 @@ for (var i = 0; i < values.length; i++) {
 }
 
 $('.hovercolour').hover(function(){
-	$(this).toggleClass('colourpink growtype');
-	$(this).parent().toggleClass('wider');
+	$(this).addClass('colourpink growtype');
+	var expandedWidth = ($(this).width() * 0.3);
+	$(this).parent().css({'width':'calc(100% + ' + expandedWidth + 'px','margin-left':'-' + expandedWidth / 2 + 'px'});
+}, function(){
+	$(this).removeClass('colourpink growtype');
+	$(this).parent().css({'width':'calc(100%)','margin-left':'0px'});
 })
