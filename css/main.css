@@ -222,7 +222,7 @@ a.external {
 }
 
 #nextclass > ul > li:hover {
-	cursor: help;
+	/*cursor: help;*/
 }
 
 button.button-closed {
