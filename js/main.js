@@ -9,7 +9,7 @@ $(window).resize(function(){
 
 $('#nextclass').find('li').hover(function(){
 	$(this).toggleClass('box-filled');
-	console.log('list hovered')
+	// console.log('list hovered')
 })
 
 
