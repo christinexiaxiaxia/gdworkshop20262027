@@ -34,4 +34,5 @@ for (var i = 0; i < values.length; i++) {
 
 $('.hovercolour').hover(function(){
 	$(this).toggleClass('colourpink growtype');
+	$(this).parent().toggleClass('wider');
 })

@@ -446,6 +446,11 @@ span.dash {
 	transition-duration: 0.1s;
 }
 
+.wider {
+	width: 101.5%;
+	margin-left: -0.75%;
+}
+
 .colourpink {
 	color: rgb(255, 100, 255);
 }
