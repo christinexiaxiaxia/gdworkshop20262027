@@ -10,19 +10,19 @@
 
 @keyframes colourpop {
 	0% {
-		font-size: 1em;
+		font-size: 1.25em;
 	}
 	3% {
 		color: rgb(0, 0, 0);
 	}
 	5% {
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 	6% {
 		color: rgb(255, 100, 255);
 	}
 	8% {
-		font-size: 1em;
+		font-size: 1.25em;
 	}
 }
 
@@ -317,7 +317,7 @@ h3.navigation {
 	background-color: ;
 }
 
-#us > p.caption {
+#us > p {
 	animation: colourpop ease;
 	animation-timeline: view();
 }
@@ -407,7 +407,8 @@ p {
 
 p.tiny {
 	font-family: Tiny120;
-	font-size: 1.3rem;
+	font-size: 1.25rem;
+	line-height: 1rem;
 }
 
 ul {
