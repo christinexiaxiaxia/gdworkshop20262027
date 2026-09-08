@@ -544,7 +544,7 @@ span.dash {
 
 .colourpink {
 	color: rgb(255, 100, 255);
-	transition-duration: 0.1s;
+	/*transition-duration: 0.1s;*/
 }
 
 
