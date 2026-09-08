@@ -358,10 +358,6 @@ ul {
 	letter-spacing: -0.016em;
 }
 
-.box-filled {
-	list-style: "☒ " inside;
-}
-
 li {
 	margin: 0;
 }
@@ -438,7 +434,7 @@ span.dash {
 .hovercolour {
 	cursor: none;
 	line-height: 0;
-	transition-duration: 0.3s;
+	transition-duration: 0.2s;
 
 	padding: 0.25rem;
 	margin: -0.25rem;
@@ -456,6 +452,10 @@ span.dash {
 
 .colourred {
 	color: rgb(255, 0, 0);
+}
+
+.box-filled {
+	list-style: "☒ " inside;
 }
 
 
