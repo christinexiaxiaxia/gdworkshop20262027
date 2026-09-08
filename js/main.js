@@ -9,7 +9,6 @@ $(window).resize(function(){
 
 $('#nextclass').find('li').hover(function(){
 	$(this).toggleClass('box-filled');
-	// console.log('list hovered')
 })
 
 
@@ -27,11 +26,10 @@ const values = [
 ]
 
 for (var i = 0; i < values.length; i++) {
-		for (var y = 0; y < values[i].length; y++) {
-			// console.log(values[i][y])
-
+	for (var y = 0; y < values[i].length; y++) {
+		// console.log(values[i][y])
 		$('.valueitem' + i).append('<span class="hovercolour">' + values[i][y] + '</span>')
-		}
+	}
 }
 
 $('.hovercolour').hover(function(){
