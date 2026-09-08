@@ -8,6 +8,22 @@
   src: url("../fonts/TINY5x3-120.woff");
 }
 
+/*@keyframes valueshover {
+	0% {
+		font-size: 1em;
+		color: rgb(0, 0, 0);
+	}
+	50% {
+		color: rgb(255, 100, 255);
+	}
+	60% {
+		font-size: 1.5em;
+	}
+	100% {
+		font-size: 1.5em;
+	}
+}*/
+
 @keyframes colourpop {
 	0% {
 		font-size: 1.25em;
@@ -189,9 +205,6 @@
 
 html {
 	scroll-behavior: smooth;
-}
-
-* {
 	font-size: 11px;
 }
 
@@ -501,6 +514,37 @@ span.dash {
 	font-size: 1em;
 	position: relative;
 	top: -0.1em;
+}
+
+
+/* jQuery animation classes */
+
+.no-transition {
+	transition-duration: 0s;
+}
+
+.hovercolour {
+	cursor: none;
+	line-height: 0;
+	transition-duration: 0.3s;
+
+	padding: 0.25rem;
+	margin: -0.25rem;
+}
+
+/*.hovercolour:hover {
+	animation: valueshover 1s;
+}*/
+
+.growtype {
+	font-size: 1.3em;
+	line-height: 0;
+	transition-duration: 0.1s;
+}
+
+.colourpink {
+	color: rgb(255, 100, 255);
+	transition-duration: 0.1s;
 }
 
 
