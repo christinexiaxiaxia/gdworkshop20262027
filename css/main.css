@@ -15,13 +15,13 @@
 	3% {
 		color: rgb(0, 0, 0);
 	}
-	4% {
+	5% {
 		font-size: 1.25em;
 	}
-	5% {
+	6% {
 		color: rgb(255, 100, 255);
 	}
-	6% {
+	8% {
 		font-size: 1em;
 	}
 }
@@ -232,7 +232,7 @@ h3.navigation {
 	flex-direction: column;
 	gap: 12rem;
 
-	padding: 12rem 4rem 4rem 4rem;
+	padding: 12rem 4rem 5rem 4rem;
  }
 
 .section {
@@ -320,7 +320,6 @@ h3.navigation {
 #us > p.caption {
 	animation: colourpop ease;
 	animation-timeline: view();
-	/*animation-delay: 2s;*/
 }
 
 ::selection {
