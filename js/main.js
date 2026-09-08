@@ -1,6 +1,19 @@
+// REMOVE TRANSITION ON WINDOW RESIZE
+
 $(window).resize(function(){
 	$('*').addClass('no-transition');
 });
+
+
+// HOVER NEXT CLASS LIST
+
+$('#nextclass').find('li').hover(function(){
+	$(this).toggleClass('box-filled');
+	console.log('list hovered')
+})
+
+
+// VALUES LIST, SPLITTING, HOVER ANIMATION
 
 const values = [
 	'Follow your curiosities.',
@@ -15,7 +28,7 @@ const values = [
 
 for (var i = 0; i < values.length; i++) {
 		for (var y = 0; y < values[i].length; y++) {
-			console.log(values[i][y])
+			// console.log(values[i][y])
 
 		$('.valueitem' + i).append('<span class="hovercolour">' + values[i][y] + '</span>')
 		}

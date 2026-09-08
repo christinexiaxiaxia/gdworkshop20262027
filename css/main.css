@@ -105,87 +105,8 @@
 	}
 }
 
-/*@-webkit-keyframes spin {
-	0% {
-		-ms-transform: rotate(0deg);
-		-moz-transform: rotate(0deg);
-		-webkit-transform: rotate(0deg);
-		-o-transform: rotate(0deg);
-		transform: rotate(0deg);
 
-		-ms-transform-origin: 50% 50%;
-		-moz-transform-origin: 50% 50%;
-		-webkit-transform-origin: 50% 50%;
-		-o-transform-origin: 50% 50%;
-		transform-origin: 50% 50%;
-	}
-	12.5% {
-		-ms-transform-origin: 33% 53%;
-		-moz-transform-origin: 33% 53%;
-		-webkit-transform-origin: 33% 53%;
-		-o-transform-origin: 33% 53%;
-		transform-origin: 33% 53%;
-	}
-	25% {
-		-ms-transform-origin: 50% 50%;
-		-moz-transform-origin: 50% 50%;
-		-webkit-transform-origin: 50% 50%;
-		-o-transform-origin: 50% 50%;
-		transform-origin: 50% 50%;
-	}
-	37.5% {
-		-ms-transform-origin: 48% 72%;
-		-moz-transform-origin: 48% 72%;
-		-webkit-transform-origin: 48% 72%;
-		-o-transform-origin: 48% 72%;
-		transform-origin: 48% 72%;
-	}
-	50% {
-		-ms-transform-origin: 50% 50%;
-		-moz-transform-origin: 50% 50%;
-		-webkit-transform-origin: 50% 50%;
-		-o-transform-origin: 50% 50%;
-		transform-origin: 50% 50%;
-	}
-	62.5% {
-		-ms-transform-origin: 33% 53%;
-		-moz-transform-origin: 33% 53%;
-		-webkit-transform-origin: 33% 53%;
-		-o-transform-origin: 33% 53%;
-		transform-origin: 33% 53%;
-	}
-	75% {
-		-ms-transform-origin: 50% 50%;
-		-moz-transform-origin: 50% 50%;
-		-webkit-transform-origin: 50% 50%;
-		-o-transform-origin: 50% 50%;
-		transform-origin: 50% 50%;
-	}
-	87.5% {
-		-ms-transform-origin: 48% 72%;
-		-moz-transform-origin: 48% 72%;
-		-webkit-transform-origin: 48% 72%;
-		-o-transform-origin: 48% 72%;
-		transform-origin: 48% 72%;
-	}
-	100% {
-		-ms-transform: rotate(720deg);
-		-moz-transform: rotate(720deg);
-		-webkit-transform: rotate(720deg);
-		-o-transform: rotate(720deg);
-		transform: rotate(720deg);
-
-		-ms-transform-origin: 50% 50%;
-		-moz-transform-origin: 50% 50%;
-		-webkit-transform-origin: 50% 50%;
-		-o-transform-origin: 50% 50%;
-		transform-origin: 50% 50%;
-	}
-}*/
-
-
-
-
+/* STRUCTURE */
 
 html {
 	scroll-behavior: smooth;
@@ -195,8 +116,6 @@ html {
 body {
 	margin: 0;
 }
-
-/* STRUCTURE */
 
 div.navigation {
 	position: fixed;
@@ -289,6 +208,10 @@ img.multiply {
 
 a.external {
 	cursor: alias;
+}
+
+#nextclass > ul > li:hover {
+	cursor: help;
 }
 
 
@@ -422,16 +345,21 @@ ul {
 
 #nextclass > ul {
 	text-align: center;
-	list-style-type: "☐ ";
+	list-style: "☐ " inside;
 	margin-inline-start: 0;
 	padding-inline-start: 0;
 }
 
 #nextclass > ul > li {
+
 	font-size: 3rem;
 	line-height: 2.75rem;
 	font-weight: normal;
 	letter-spacing: -0.016em;
+}
+
+.box-filled {
+	list-style: "☒ " inside;
 }
 
 li {
