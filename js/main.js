@@ -44,7 +44,7 @@ $('.hovercolour').hover(function(){
 	var expandedWidth = ($(this).width() * 0.25);
 	$(this).parent().css({'width':'calc(100% + ' + expandedWidth + 'px','margin-left':'-' + expandedWidth / 2 + 'px'});
 }, function(){
-	$(this).removeClass('colourpink growtype');
+	$(this).removeClass('growtype');
 	$(this).parent().css({'width':'calc(100%)','margin-left':'0px'});
 })
 
