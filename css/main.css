@@ -372,6 +372,7 @@ h3.navigation {
 }
 
 #us > p {
+	-webkit-animation: colourpop ease;
 	animation: colourpop ease;
 	animation-timeline: view();
 }
