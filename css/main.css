@@ -555,6 +555,10 @@ span.dash {
 	top: -0.1em;
 }
 
+span.emphasis {
+	color: rgb(255, 100, 255);
+}
+
 button {
 	/*font-family: Tiny100;*/
 	font-family: serif;
