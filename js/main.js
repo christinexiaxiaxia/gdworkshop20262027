@@ -7,14 +7,17 @@ $(document).ready(function(){
 
 // REMOVE TRANSITION ON WINDOW RESIZE
 
-$(window).resize(function(){
-	$('*').addClass('no-transition');
-});
+// $(window).resize(function(){
+// 	$('*').addClass('no-transition');
+// });
 
 
 // HOVER NEXT CLASS LIST
 
 $('#nextclass').find('li').hover(function(){
+	$(this).toggleClass('box-filled');
+})
+$('#today').find('li').hover(function(){
 	$(this).toggleClass('box-filled');
 })
 
