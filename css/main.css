@@ -271,6 +271,12 @@ h3.navigation {
 	margin-top: -24rem;
 }*/
 
+#today {
+	gap: 1.5rem;
+
+	max-width: 80rem;
+}
+
 #nextclass {
 	gap: 1.5rem;
 
@@ -474,14 +480,16 @@ ul {
 	padding-inline-start: 0;
 }
 
-#nextclass > ul {
+#nextclass > ul,
+#today > ul {
 	text-align: center;
 	list-style: "☐ " inside;
 	margin-inline-start: 0;
 	padding-inline-start: 0;
 }
 
-#nextclass > ul > li {
+#nextclass > ul > li,
+#today > ul > li {
 
 	font-size: 3rem;
 	line-height: 2.75rem;
