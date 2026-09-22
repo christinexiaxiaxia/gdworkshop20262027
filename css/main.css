@@ -271,7 +271,7 @@ h3.navigation {
 	margin-top: -24rem;
 }*/
 
-#today {
+#reminders {
 	gap: 1.5rem;
 
 	max-width: 80rem;
@@ -492,7 +492,7 @@ ul {
 }
 
 #nextclass > ul,
-#today > ul {
+#reminders > ul {
 	text-align: center;
 	list-style: "☐ " inside;
 	margin-inline-start: 0;
@@ -500,7 +500,7 @@ ul {
 }
 
 #nextclass > ul > li,
-#today > ul > li {
+#reminders > ul > li {
 
 	font-size: 3rem;
 	line-height: 2.75rem;
