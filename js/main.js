@@ -20,6 +20,9 @@ $('#nextclass').find('li').hover(function(){
 $('#today').find('li').hover(function(){
 	$(this).toggleClass('box-filled');
 })
+$('#reminders').find('li').hover(function(){
+	$(this).toggleClass('box-filled');
+})
 
 
 // VALUES LIST, SPLITTING, HOVER ANIMATION

@@ -544,7 +544,8 @@ span.caption {
 	position: relative;
 }
 
-h2 > span.caption {
+h2 > span.caption,
+li > span.caption {
 	top: -0.85em;
 }
 
