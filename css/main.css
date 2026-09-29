@@ -319,6 +319,10 @@ iframe {
 	border: 0;
 }
 
+#officehours > iframe {
+	height: 54rem;
+}
+
 img {
 	margin: auto;
 }
