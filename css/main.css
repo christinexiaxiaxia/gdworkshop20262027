@@ -321,6 +321,11 @@ iframe {
 
 #officehours > iframe {
 	height: 54rem;
+	width: calc(100vw - 8rem);
+	max-width: 92rem;
+
+	/*padding: 0 6rem;*/
+	margin: 0rem auto 0 auto;
 }
 
 img {
