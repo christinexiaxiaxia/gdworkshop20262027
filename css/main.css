@@ -323,12 +323,9 @@ img {
 	/*margin: auto;*/
 }
 
-img.thumbnail {
-	width: 10rem;
-	position: relative;
-}
-
 div.thumbnail {
+	display: flex;
+	align-items: center;
 	width: 10rem;
 	height: 4.1rem;
 	margin: 0.5rem;
@@ -336,6 +333,19 @@ div.thumbnail {
 
 div.thumbnail.empty {
 	outline: 1px dashed black;
+}
+
+img.thumbnail {
+	width: 10rem;
+	position: relative;
+}
+
+div.thumbnail > p.caption {
+	position: relative;
+	width: 100%;
+	padding: 0.25rem;
+	/*font-size: 0.7rem;*/
+	/*line-height: 0.8rem;*/
 }
 
 .multiply {
@@ -409,6 +419,10 @@ button.button-closed {
 
 button.button-open {
 	cursor: zoom-out;
+}
+
+.thumbnail {
+	cursor: help;
 }
 
 

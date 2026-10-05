@@ -55,6 +55,15 @@ $('.hovercolour').hover(function(){
 })
 
 
+// STUDIO THUMBNAILS
+
+$('div.thumbnail').hover(function(){
+	$(this).find('img').toggleClass('closed');
+	$(this).find('p.caption').toggleClass('closed');
+	$(this).toggleClass('empty');
+})
+
+
 // COLLAPSING BUTTON
 
 $('.collapse').on('click', function(){
