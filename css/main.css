@@ -813,8 +813,8 @@ button:hover > a {
 	}
 
 #general {
-	padding: 4rem;
-	width: calc(100vw - 16rem);
+	padding: 3rem;
+	width: calc(100vw - 14rem);
 	/*max-width: 80rem;*/
 }
 
