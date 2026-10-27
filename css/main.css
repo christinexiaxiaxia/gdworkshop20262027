@@ -812,6 +812,12 @@ button:hover > a {
 		display: inline;
 	}
 
+#general {
+	padding: 4rem;
+	width: calc(100vw - 16rem);
+	/*max-width: 80rem;*/
+}
+
 /*	.container {
 		gap: 8rem;
 
