@@ -298,8 +298,10 @@ h3.navigation {
 }
 
 #checkthis > h3 {
+	/*line-height: 2rem;*/
+	/*margin-top: 0.75rem;*/
 	animation: checkthisout 3s infinite linear;
-	transform-origin: 50% 40%;
+	transform-origin: 50% 33%;
 }
 
 #checkthis > ul > li {
