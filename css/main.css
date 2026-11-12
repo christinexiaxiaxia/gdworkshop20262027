@@ -305,7 +305,7 @@ h3.navigation {
 #checkthis > ul > li {
 	width: calc(100vw - 20rem);
 	max-width: 36rem;
-	padding: 4rem;
+	padding: 5rem 4rem 4rem 4rem;
 	margin: auto;
 
 	border: 1px dashed black;
