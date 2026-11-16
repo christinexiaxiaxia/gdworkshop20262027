@@ -304,6 +304,11 @@ h3.navigation {
 	transform-origin: 50% 33%;
 }
 
+.spinning {
+	animation: checkthisout 3s infinite linear;
+	transform-origin: 50% 33%;
+}
+
 #checkthis > ul > li {
 	width: calc(100vw - 20rem);
 	max-width: 36rem;
